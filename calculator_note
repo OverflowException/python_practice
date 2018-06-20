@@ -1,0 +1,34 @@
+1.use
+	eval("")
+  to calculate formula from string directly
+
+2.Use something like
+      my_str1 = str(n)
+  to convert number n (integer or float) to a string representation.
+  
+  Use
+      my_str2 = "{:.8f}".format(n)
+  to convert n to string, with 8 digits after decimal point precision.
+
+3.Suppose ent is an Entry instance
+	  ent.configure(state = "normal")
+	  [change ent]
+	  ent.configure(state = "readonly")
+  to set ent to toggle the state of ent between normal and readonly to
+
+4.Use
+	global var
+  at the beginning of function, to access(set/get) global variable
+
+5.Use
+	math.radians(deg)
+  to turn degree into radian
+
+6.Error handling: ZeroDivisionError or SyntaxError
+
+7.near-zero values
+
+8.square root
+
+
+1*.Derive a class from tk.Button? So no need to set all the GUI parameters over and over again
